@@ -1,11 +1,14 @@
 # Copy the delegate install command and modify it as follows:
 Add --net=host to the first line.
-Add -e DELEGATE_TAGS="DELEGATE_OS_ARCH", and replace DELEGATE_OS_ARCH with the tag corresponding to your Docker environment's architecture: linux-amd64 or linux-arm64.
+Add -e DELEGATE_TAGS="DELEGATE_OS_ARCH", and replace DELEGATE_OS_ARCH with the tag corresponding to your Docker environment's 
+architecture: linux-amd64 or linux-arm64.
 Here's an example of an install script for Linux arm64:
 
  Download harness runner and start it
+ ```
  chmod 755 drone-docker-runner-linux-amd64
  nohup ./drone-docker-runner-linux-amd64 server > log.txt 2>&1 &
+```
 ```
  docker run  -d --cpus=1 --memory=2g \
   -e DELEGATE_NAME=docker-delegate-gh \
