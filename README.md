@@ -6,7 +6,7 @@ Here's an example of an install script for Linux arm64:
  Download harness runner and start it
  chmod 755 drone-docker-runner-linux-amd64
  nohup ./drone-docker-runner-linux-amd64 server > log.txt 2>&1 &
-
+```
  docker run  -d --cpus=1 --memory=2g \
   -e DELEGATE_NAME=docker-delegate-gh \
   -e NEXT_GEN="true" \
@@ -17,8 +17,9 @@ Here's an example of an install script for Linux arm64:
   -e RUNNER_URL=http://10.10.1.15:3000 \
   -e LOG_STREAMING_SERVICE_URL=https://app.harness.io/log-service/ \
   -e MANAGER_HOST_AND_PORT=https://app.harness.io harness/delegate:23.12.81808
+```
 
-#Configure a Sonar Server locally
+# Configure a Sonar Server locally
 ```
 apt install unzip
 adduser sonarqube
