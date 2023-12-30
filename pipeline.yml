@@ -76,7 +76,7 @@ pipeline:
                       docker push ganeshmete11/ultimate-cicd:${BUILD_NUMBER}
                     envVariables:
                       BUILD_NUMBER: <+pipeline.sequenceId>
-                      Password: Honda@123
+                      Password: ******
                   description: Push Docker Image to Docker Hub
               - step:
                   type: Run
