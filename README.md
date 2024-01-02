@@ -35,6 +35,11 @@ cd sonarqube-9.4.0.54424/bin/linux-x86-64/
 ```
 ## Stage 1 : Select the Build Library "Run Test"
 <img width="419" alt="image" src="https://github.com/e5664869/harness-ci/assets/122775400/66e18674-6f8c-4815-a14f-4697f5b2d5da">
-## Stage 2: 
+
+## Stage 2: Select the Build Library "Run"
 <img width="446" alt="image" src="https://github.com/e5664869/harness-ci/assets/122775400/b41850cf-72c4-41cb-ae2e-8f3ef53076aa">
+
+## Stage 3 : Select the Build Library "Run"
+<img width="440" alt="image" src="https://github.com/e5664869/harness-ci/assets/122775400/d344c332-ee86-4499-a926-6b1572badbc0">
+
 
