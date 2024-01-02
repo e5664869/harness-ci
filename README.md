@@ -33,3 +33,8 @@ chown -R sonarqube:sonarqube /home/sonarqube/sonarqube-9.4.0.54424
 cd sonarqube-9.4.0.54424/bin/linux-x86-64/
 ./sonar.sh start
 ```
+## Stage 1 : Select the Build Library "Run Test"
+<img width="419" alt="image" src="https://github.com/e5664869/harness-ci/assets/122775400/66e18674-6f8c-4815-a14f-4697f5b2d5da">
+## Stage 2: 
+<img width="446" alt="image" src="https://github.com/e5664869/harness-ci/assets/122775400/b41850cf-72c4-41cb-ae2e-8f3ef53076aa">
+
